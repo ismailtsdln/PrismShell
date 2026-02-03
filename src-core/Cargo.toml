@@ -1,0 +1,21 @@
+[package]
+name = "prismshell"
+version = "0.1.0"
+description = "A modern terminal for the future"
+authors = ["you"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1", features = [] }
+
+[dependencies]
+tauri = { version = "1", features = ["shell-open"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+russh = "0.40" # or latest
+russh-keys = "0.40"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+async-trait = "0.1"
