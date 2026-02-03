@@ -58,15 +58,6 @@ PrismShell leverages the "Prism Architecture" to separate concerns between the U
     cargo tauri dev
     ```
 
-## 🗺️ Roadmap
-
-- [x] Initial Project Architecture
-- [x] Core SSH backend implementation
-- [x] Basic UI & Theme Engine
-- [ ] PTY / Shell passthrough integration
-- [ ] SFTP File Browser
-- [ ] Plugin System (Lua/WASM)
-- [ ] Cloud Sync (Optional)
 
 ## 🤝 Contributing
 

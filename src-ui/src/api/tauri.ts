@@ -13,6 +13,10 @@ export const connectSsh = async (host: string, port: number, username: string) =
   return invoke('connect_ssh', { host, port, username });
 };
 
+export const sendInput = async (input: string) => {
+  return invoke('send_input', { input });
+};
+
 export const getProfiles = async (): Promise<Profile[]> => {
   return invoke('get_profiles');
 };
